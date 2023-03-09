@@ -1,0 +1,262 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /* */
+  .main_banner {
+    padding: 110px 0 201px; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* */
+  .main_banner .mb_info > h1 {
+    font-size: 45px; }
+
+  .main_banner .mb_info > .descr {
+    margin-bottom: 20px; }
+
+  .main_banner {
+    padding: 110px 0 240px; }
+
+  section {
+    padding: 80px 0; }
+
+  .information {
+    padding-bottom: 50px; }
+
+  #reviews .item_rev > .quotes {
+    height: 110px; }
+
+  #pre_footer .form_wrapper {
+    margin: 110px auto; }
+
+  #footer .row_flex .col_footer-1,
+  #footer .row_flex .col_footer-3 {
+    width: 48%;
+    order: 2; }
+
+  #footer .row_flex .col_footer-2 {
+    width: 100%;
+    margin-bottom: 30px;
+    order: 1; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* */
+  .btn-sample {
+    display: none; }
+
+  #header .menu_top > li a {
+    padding: 10px 25px 10px 0; }
+
+  #header .menu_top > li.has_sub_menu::after {
+    right: 12px; }
+
+  .main_banner {
+    padding: 70px 0 200px; }
+    .main_banner .img-responsive {
+      max-width: 70%; }
+
+  .main_banner .mb-info > h1 {
+    font-size: 40px; }
+
+  .descr {
+    font-size: 16px; }
+
+  .notif {
+    margin: 0 auto; }
+
+  .information {
+    text-align: center; }
+
+  section.information .right-info {
+    padding: 0 30px; }
+
+  section {
+    padding: 50px 0; }
+
+  #advantages .heading_main .description {
+    font-size: 16px; }
+
+  .item_adv {
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 240px;
+    margin: 0 auto 40px; }
+
+  #advantages .row_adv .item_adv > .heading {
+    font-size: 22px; }
+
+  section.information .img-responsive {
+    display: none; }
+
+  #reviews {
+    padding: 140px 0; }
+
+  #reviews .item_rev > .quotes {
+    font-size: 18px; }
+
+  #reviews .item_rev > .name,
+  .position {
+    font-size: 14px; }
+
+  #pre_footer .pf_info > h4,
+  section.information .right-info > h2,
+  #advantages .heading_main h2 {
+    font-size: 30px; }
+
+  .img-responsive {
+    max-width: 50%; }
+
+  #footer {
+    padding: 30px 0; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* */
+  #burger {
+    display: block; }
+
+  #header {
+    position: relative;
+    padding: 10px 0; }
+    #header .inner_header .right_side_header .menu_top {
+      display: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 65px;
+      width: 100%;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+      background: white;
+      padding: 10px 0;
+      z-index: 11; }
+      #header .inner_header .right_side_header .menu_top > li {
+        display: block; }
+        #header .inner_header .right_side_header .menu_top > li > a {
+          padding: 5px 15px; }
+        #header .inner_header .right_side_header .menu_top > li > .sub_menu {
+          display: block;
+          position: relative;
+          top: auto;
+          box-shadow: none;
+          border-radius: none;
+          animation: none;
+          padding-left: 15px; }
+
+  #header .menu_top > li.has_sub_menu::after {
+    display: none; }
+
+  #top_banner {
+    background-color: #F5FAFF;
+    background-image: none !important; }
+    #top_banner .main_banner {
+      padding: 30px 0; }
+
+  .notif {
+    margin: 0 auto; }
+
+  .main_banner .mb-info {
+    text-align: center; }
+    .main_banner .mb-info > h1 {
+      font-size: 34px; }
+    .main_banner .mb-info > .descr {
+      font-size: 14px; }
+    .main_banner .mb-info > .btns {
+      flex-wrap: wrap;
+      width: 70%; }
+      .main_banner .mb-info > .btns > a {
+        margin-bottom: 10px;
+        padding: 8px 40px; }
+
+  .main_banner .mb-info > .btns > .btn_white {
+    margin-left: 0; }
+
+  .notif {
+    font-size: 14px; }
+
+  #advantages .heading_main {
+    padding: 0 20px; }
+
+  #pre_footer .pf_info > h4,
+  section.information .right-info > h2,
+  #advantages .heading_main h2 {
+    font-size: 26px; }
+
+  #advantages .heading_main .description {
+    font-size: 14px; }
+
+  #reviews {
+    background-color: #F5FAFF;
+    background-image: none !important;
+    padding: 100px 0; }
+    #reviews .nav_rev {
+      justify-content: center; }
+      #reviews .nav_rev > div {
+        width: 33%;
+        padding: 0 10px 15px; }
+
+  #reviews {
+    padding: 50px 0; }
+    #reviews .item_rev > .quotes {
+      font-size: 14px;
+      margin: 0 auto 30px; }
+
+  #footer b.heading {
+    font-size: 14px; }
+
+  #footer .mnu_footer_wrapper > .mnu_footer > ul > li > a {
+    font-size: 10px; }
+
+  #footer .logo_info > .descr {
+    font-size: 12px; }
+
+  .mnu_footer {
+    text-align: center;
+    margin: 10px 30px; } }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */
+  .main_banner .mb-info > h1 {
+    font-size: 30px; }
+
+  .main_banner .mb-info > .descr {
+    font-size: 12px;
+    margin: 14px auto 0; }
+
+  .main_banner .mb-info > .btns {
+    justify-content: center;
+    width: 70%;
+    margin: 50px auto 0; }
+
+  #advantages .row_adv .item_adv > .heading {
+    font-size: 20px; }
+
+  #advantages .row_adv .item_adv > .descr {
+    font-size: 14px; }
+
+  #pre_footer .pf_info > h4, section.information .right-info > h2, #advantages .heading_main h2 {
+    font-size: 24px; }
+
+  section.information .right-info > .descr {
+    font-size: 14px; }
+
+  #pre_footer .form_wrapper > form > input {
+    font-size: 14px; }
+
+  .mnu_footer {
+    margin: 10px 10px; } }
+/*==========  Mobile First  ========== */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /* */ }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* */ }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* */ }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* */ }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* */ }
+
+/*# sourceMappingURL=adaptive.css.map */
